@@ -104,7 +104,7 @@ button{
   .header{
     height: 600px;
     background-position: center;
-    background-image: url(../Images/aec.jpg);
+    background-image: url(aec.jpg);
   }
 
   .nav-menu.active {
