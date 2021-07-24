@@ -281,7 +281,7 @@ button:hover{
   padding: 10px;
 }
 .photo{
-  background-image: url(../Images/IMG-20210703-WA0058\ \(1\).jpg);
+  background-image: url(IMG-20210703-WA0058\ \(1\).jpg);
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -304,7 +304,7 @@ button:hover{
     margin: auto;
     margin-bottom: 9px;
     margin-top: 1px;
-    background-image: url(../Images/presi.jpg);
+    background-image: url(presi.jpg);
   }
   .achiev{
     height: 200px;
@@ -314,7 +314,7 @@ button:hover{
   }
 }
 .achiev{
-  background-image: url(../Images/ac.jpg);
+  background-image: url(ac.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
