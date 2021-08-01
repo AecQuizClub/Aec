@@ -475,7 +475,7 @@ button:hover{
 
 
 #preloader{
-  background: white  url(Bounce-Bar-Preloader-1.gif) no-repeat center center;;
+  background: white  url(preloader.gif) no-repeat center center;;
   height: 100vh;
   width: 100%;
   position: fixed;
