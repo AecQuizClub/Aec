@@ -1,1 +1,581 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Home</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            
+            margin: 0
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+
+            margin: auto;
+            
+            z-index: 1;
+
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 380px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloader">
+
+    </div>
+
+    <header class="header" id="head">
+        <nav class="navbar">
+            <div class="flx">
+                <div class="logo">
+                  <a href="../Html/index.html">  <img src="../Logo/output-onlinepngtools (1).png" height="90px"></a>
+
+                </div>
+                <div class="txt">
+                    <p style="font-size: 18px;">AEC Quiz Club</p>
+                    <p>Assam Engineering College</p>
+                    <p>Jalukbari,Ghy</p>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../Html/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/CoreTeam.html" class="nav-link">CoreTeam</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/Joinus.html" class="nav-link"><button>JoinUs</button></a>
+                </li>
+
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+<div id="myDIV">
+
+</div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="../Images/FB_IMG_1626883267151 copy.jpg" style="width:100%" height="590px">
+                <div class="text" style="background-color: rgba(27, 25, 25, 0.4);">When AECQC meet Cricket AECQC President (2021 batch) Deepjyoti Patowary collects prize
+                    from Vivian Richards.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="../Images/FB_IMG_1626883302616.jpg" style="width:100%" height="590px">
+                <div class="text" style="background-color: rgba(27, 25, 25, 0.4);">AECQC on Television A team of AECQC winning DD North-East Quiz</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="../Images/sl2.jpg" style="width:100%" height="590px">
+                <div class="text" style="background-color: rgba(27, 25, 25, 0.4);">Dominating the District AECQC bag 1st and 2nd position in the Kamrup District at
+                    Election Quotient, 2019</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="../Images/Fb4.jpeg" style="width:100%" height="590px">
+                <div class="text" style="background-color: rgba(27, 25, 25, 0.4);">Conquistadors at Crucible AECQC team wins 2nd prize at the Tata Crucible Quiz 2020.
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="../Images/sl5.jpg" style="width:100%" height="590px">
+                <div class="text" style="background-color: rgba(27, 25, 25, 0.4);">Top among technical institutions AECQC wins at ISTE Assam Chapter Quiz 2018</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <div class="logoA">
+            <a href="https://www.aec.ac.in/"> <img src="../Logo/aec.png" alt="" srcset="" height="100px"
+                    width="100px"></a>
+        </div>
+    </header>
+
+    <!---->
+    <!--Desk-->
+    <!---->
+    <div class="president">
+        <div class="photo">
+            
+        </div>
+        <div class="tu"><p id="p2"><u>From The President's Desk</u></p>
+        <p>It is indeed a historic moment for AEC Quiz Club, one of the most vibrant quizzing societies of North-East as
+            it finds a proper place in the digital world in the form of this website. Throughout the years, AECQC
+            incessantly strived and laboured to uphold and promote the culture of quizzing and also improving the
+            standard of quizzing in this quest. The memories of AECQC need to be well-documented as it will ensure that
+            the hearts of future AECQC members brim with inspiration and zeal. The stories of our successes - both as
+            organizers and participants will push them to unmatched triumphs and achievements. The creation of this
+            website is a serious effort on the part of the 2021-22 Core team to chronicle and preserve the legacy of
+            this illustrious club.
+        </p></div>
+   
+    </div>
+    <hr>
+    <!---->
+    <p id="up"> Events</p>
+    <div class="block">
+        <div class="notice" id="flex">
+
+            <div class="card">
+                <div class="imag">
+                    <img src="../Images/WhatsApp Image 2021-07-21 at 9.33.56 AM.jpeg" alt="" srcset="" height="320px"
+                        width="280px">
+                </div>
+                <div class="context">
+                    <marquee width="100%" direction="up" height="100px"  onmouseover="this.stop()" onmouseleave="this.start()">
+                        An Intra AEC Environment Quiz in collaboration with Energy Club AEC was organised on World
+                        Environment Day.
+                        Date: 5th June 2021
+                        The result of the event were as follows: 1st: Arindam Kashyap Ray 2nd: Jishnu Saikia 3rd:
+                        Antariksh Kashyap.
+                    </marquee>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <div class="imag">
+                    <img src="../Images/WhatsApp Image 2021-07-21 at 9.35.22 AM.jpeg" alt="" srcset="" height="320px"
+                        width="280px">
+                </div>
+                <div class="context">
+                    <marquee width="100%" direction="up" height="100px"  onmouseover="this.stop()" onmouseleave="this.start()">
+                        An Intra AEC Environment Quiz in collaboration with Energy Club AEC was organised on World
+                        Environment Day.
+                        Date: 5th June 2021
+                        The result of the event were as follows: 1st: Arindam Kashyap Ray 2nd: Jishnu Saikia 3rd:
+                        Antariksh Kashyap.
+                    </marquee>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <div class="imag">
+                    <img src="../Images/WhatsApp Image 2021-07-21 at 9.36.01 AM.jpeg" alt="" srcset="" height="320px"
+                        width="280px">
+                </div>
+                <div class="context">
+                    <marquee width="100%" direction="up" height="100px"  onmouseover="this.stop()" onmouseleave="this.start()">
+                        An Intra AEC quiz competition was conducted by AEC Alumnus Mr. Kapinjal Choudhury.
+                        Date: 22nd May 2021
+                        The results of the event were as follows: 1st: Akash Bhagawati, Vivian Das Barman 2nd; Angaraaj Das, Arindam Kashyap Ray 3rd (Joint): Dhritiraj Mishra, Deepjyoti Patowary and Hrideep Ranjan Thakuria, Ankur Kalita
+                    </marquee>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="imag">
+                    <img src="../Images/WhatsApp Image 2021-07-21 at 9.36.43 AM.jpeg" alt="" srcset="" height="320px"
+                        width="280px">
+                </div>
+                <div class="context">
+                    <marquee width="100%" direction="up" height="100px"  onmouseover="this.stop()" onmouseleave="this.start()">
+                        After a deadly flood had caused havoc in Assam a nationwide fundraiser National Level Open Quiz
+                        was organised by the members of AEC Quiz Club. An amount of INR 8,000 was collected.
+                        Date: 21st and 22nd August 2020.
+                        The Results of the event were as follows: 1st Jayakanthan Ranganathan of Tamil Nadu 2nd Rahul
+                        Tushar Nene of Uttar Pradesh 3rd Kumar Abhijit Singh of Assam.
+                    </marquee>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="blockcard">
+           
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="cal">
+        <p id="upcom">upcoming events</p>
+    
+    <div class="calender">
+        <div class="date">
+            <p>Mar</p>
+            <p style="color: rgb(168, 57, 57);">21</p>
+
+        </div>
+        <div class="text1">
+            <p>Berwary tour and testing</p>
+            <p>Join our berwary events and tests for our recently tapped beers</p>
+            <p style="margin-top: 10px;"> Aec jalukbari,ghy</p>
+
+        </div>
+        <div class="btnu">
+            <a href="#" style="color: white;" >More</a>
+        </div>
+    </div>
+    <hr >
+
+
+    
+    
+  
+        
+    <div class="calender">
+        <div class="date">
+            <p>Mar</p>
+            <p style="color: rgb(168, 57, 57);">21</p>
+
+        </div>
+        <div class="text1">
+            <p>Berwary tour and testing</p>
+            <p>Join our berwary events and tests for our recently tapped beers</p>
+            <p style="margin-top: 10px;"> Aec jalukbari,ghy</p>
+
+        </div>
+        <div class="btnu" >
+            <a href="#"  style="color: white;">More</a>
+        </div>
+    </div>
+    <hr>
+    <div class="calender">
+        <div class="date">
+            <p>Mar</p>
+            <p style="color: rgb(168, 57, 57);">21</p>
+
+        </div>
+        <div class="text1">
+            <p>Berwary tour and testing</p>
+            <p>Join our berwary events and tests for our recently tapped beers</p>
+            <p style="margin-top: 10px;"> Aec jalukbari,ghy</p>
+
+        </div>
+        <div class="btnu">
+            <a href="#" style="color: white;">More</a>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="achiev">
+        <div class="divo">
+            
+            <div class="circle">
+               <p id="pl">1964</p>
+
+            </div>
+            <p id="po">Won The First Quiz of ASSAM</p>
+           
+
+        </div>
+        <div class="divo">
+             <div class="circle">
+                <p id="pl">12+</p>
+                
+            </div>
+            <p id="po">Events conducted previous session</p>
+        </div>
+        <div class="divo">
+            <div class="circle">
+                <p id="pl">69+</p>
+                
+            </div>
+            <p id="po">Current Member of AECQC</p>
+        </div>
+        <div class="divo">
+            <div class="circle">
+                <p id="pl">2016</p>
+                
+            </div>
+            <p id="po">Inducted into Student Activity Centre</p>
+        </div>
+
+
+
+
+    </div>
+
+
+    
+
+    <footer>
+        <div class="fot">
+            <div class="imago">
+                <img src="../Logo/aec.png" alt="" srcset="" width="100px" height="100px">
+
+            </div>
+            <div class="copy">
+                <p style="font-size: 17px;">Copyright © 2021 quizzclub.com. All rights reserved</p>
+
+                <p style="margin-top: 15px;"> This site is not a part of the Facebook website or Facebook Inc.
+                    Additionally, this site is NOT endorsed by Facebook in any way.</p>
+                <p>FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+
+                <p style="margin-top: 15px;"> Disclaimer: All content is provided for educational purposes only</p>
+                <p style="margin-top: 60px;">Design and Developed by Rahul Ray </p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        
+    </script>
+    <script>
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+   
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides,5000); 
+        }
+    </script>
+    <script>
+        var loader=document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        })
+    </script>
+  
+
+
+
+
+</body>
+
+</html>
