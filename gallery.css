@@ -183,7 +183,7 @@ button{
       width:100%;
       height: 100%;
      
-      background-image: url(../Images/int\ \(1\).jpeg);
+      background-image: url(int\ \(1\).jpeg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -226,7 +226,7 @@ button{
     width:100%;
     height: 100%;
     
-    background-image: url(../Images/int\ \(1i\).jpg);
+    background-image: url(int\ \(1i\).jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ button{
   width:100%;
   height: 100%;
  
-  background-image: url(../Images/int\ \(2\).jpeg);
+  background-image: url(int\ \(2\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -295,7 +295,7 @@ border: black solid 3px;
   width:100%;
   height: 100%;
  
-  background-image: url(../Images/int\ \(2i\).jpg);
+  background-image: url(int\ \(2i\).jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ transform: translateY(-50px);
   width:100%;
   height: 100%;
  
-  background-image: url(../Images/int\ \(3\).jpeg);
+  background-image: url(int\ \(3\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -329,7 +329,7 @@ transform: translateY(-50px);
   width:100%;
   height: 100%;
  
-  background-image: url(../Images/int\ \(2\).jpeg);
+  background-image: url(int\ \(2\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -347,7 +347,7 @@ transform: translateY(-50px);
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/sl1.jpeg);
+  background-image: url(sl1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ cursor: pointer;
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/nl\ \(1\).jpeg);
+  background-image: url(nl\ \(1\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -422,7 +422,7 @@ cursor: pointer;
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/nl\ \(1i\).jpg);
+  background-image: url(nl\ \(1i\).jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -440,7 +440,7 @@ cursor: pointer;
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/nl\ \(2\).jpeg);
+  background-image: url(nl\ \(2\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -458,7 +458,7 @@ cursor: pointer;
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/nl\ \(3\).jpeg);
+  background-image: url(nl\ \(3\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -476,7 +476,7 @@ cursor: pointer;
   width:100%;
   height: 100%;
   
-  background-image: url(../Images/nl\ \(4\).jpeg);
+  background-image: url(nl\ \(4\).jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ border: black solid 3px;
   opacity: 100%;
 }
 .card5{
-  background-image: url(../Images/sl2.jpg);
+  background-image: url(sl2.jpg);
   width:100%;
   height: 100%;
   
@@ -526,7 +526,7 @@ border: black solid 3px;
 
 
   .card6{
-    background-image: url(../Images/sl52n.jpeg);
+    background-image: url(sl52n.jpeg);
     width:100%;
     height: 100%;
     
@@ -543,7 +543,7 @@ border: black solid 3px;
     }
 
  .card7{
-    background-image: url(../Images/sl4.jpeg);
+    background-image: url(sl4.jpeg);
     width:100%;
     height: 100%;
     
@@ -559,7 +559,7 @@ border: black solid 3px;
     cursor: pointer;
     }  
     .card8{
-      background-image: url(../Images/sl3.jpeg);
+      background-image: url(sl3.jpeg);
       width:100%;
       height: 100%;
       
