@@ -177,7 +177,7 @@ button{
         width: 350px;
     }
     .form{
-      margin-left: 0px;
+      margin-left: 8px;
     }
 
 
@@ -199,7 +199,7 @@ button{
     background-color: rebeccapurple;
     margin-left: 18px;
     margin-top: 30px;
-    background-image: url(../Images/quiz.webp);
+    background-image: url(quiz.webp);
     background-position: center;
   }
   
