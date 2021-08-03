@@ -106,6 +106,7 @@ button{
   .nav-menu {
       position: fixed;
       left: -100%;
+      z-index: 2;
       top: 9rem;
       flex-direction: column;
       background-color: #fff;
@@ -276,6 +277,8 @@ button{
 }
 .prse{
   margin: auto;
+     z-index: 1;
+  position: relative;
   
 }
 
