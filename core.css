@@ -269,10 +269,16 @@ button{
 
 .prt{
     display: flex;
-       margin-right: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
     margin-left: 40px;
 
 }
+.prse{
+  margin: auto;
+  
+}
+
 #gl{
   margin: auto;
 }
@@ -286,13 +292,18 @@ button{
     }
     .prt{
        
-        margin-left: 12px ;
+        margin-left: 26px ;
+        margin-right: 26px;
     
     }
     #gl{
         margin-left: 20px ;
     
     }
+    #go{
+      margin: auto;
+    }
+    
     #h2{
       font-size: 10px;
       font-family:'Times New Roman', Times, serif;
@@ -321,12 +332,11 @@ button{
     margin-bottom: 30px;
     text-align: center;
   }
- #gl{
-  margin: auto;
-}
-#go{
-  margin: auto;
-}
+  #gl{
+    margin: auto;
+  }
+
+
   
 
 }
