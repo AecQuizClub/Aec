@@ -269,11 +269,15 @@ button{
 
 .prt{
     display: flex;
-    margin-left: 450px;
+       margin-right: 40px;
+    margin-left: 40px;
 
 }
-.prse{
-  margin-left: 600px;
+#gl{
+  margin: auto;
+}
+#go{
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -317,9 +321,12 @@ button{
     margin-bottom: 30px;
     text-align: center;
   }
-  .prse{
-    margin-left: 3px;
-  }
+ #gl{
+  margin: auto;
+}
+#go{
+  margin: auto;
+}
   
 
 }
