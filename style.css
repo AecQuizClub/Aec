@@ -467,6 +467,7 @@ button:hover{
   }
   .divo #po{
     font-size: 8px;
+      color: black;
 }
 }
 
@@ -525,6 +526,9 @@ button:hover{
   .logoA img{
     width: 80px;
     height: 80px;
+  }
+    .context{
+    line-height: 18.5px;
   }
  
 }
