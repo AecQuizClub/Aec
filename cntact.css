@@ -233,7 +233,7 @@ button{
       width: 300px;
       background-color: rgb(75, 114, 243);
       margin-top: 80px;
-      padding-left:42px;
+      text-align: center;
       padding-top: 40px;
       color: white;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -241,6 +241,11 @@ button{
       
      
   }
+  .social{
+    display: flex;
+    justify-content: center;
+     
+   }
   #lo{
       padding-top: 16px;
       font-size: 15px;
@@ -298,9 +303,13 @@ iframe{
    
 }
 .social{
-  margin-left: 30px;
+ display: flex;
+ justify-content: center;
+  
 }
-
+.social img{
+  margin: auto;
+}
  
   }
   iframe{
