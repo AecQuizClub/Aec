@@ -172,7 +172,7 @@ button{
  .form{
   
    display: flex;
-  
+   margin-top:20px;
    width: 100%;
  }
 .frm{
@@ -184,7 +184,7 @@ button{
     }
     .form{
       margin-left: 8px;
-        margin-top:20px;
+      
     }
 
 
