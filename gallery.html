@@ -1,295 +1,212 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="gallery.css">
+    <title> Gallery</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="flx">
-            <div class="logo">
-                <a href="index.html"> <img src="output-onlinepngtools (1).png" height="90px"></a>
+  <nav class="navbar">
+    <div class="flx">
+      <div class="logo">
+        <a href="../Html/index.html"> <img src="../Logo/output-onlinepngtools (1).png" height="90px"></a>
 
-            </div>
-            <div class="txt">
-                <p style="font-size: 18px;">AEC Quiz Club</p>
-                <p>Assam Engineering College</p>
-                <p>Jalukbari,Ghy</p>
-            </div>
-        </div>
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="CoreTeam.html" class="nav-link">CoreTeam</a>
-            </li>
-            <li class="nav-item">
-                <a href="gallery.html" class="nav-link">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a href="Joinus.html" class="nav-link"><button>JoinUs</button></a>
-            </li>
+      </div>
+      <div class="txt">
+        <p style="font-size: 18px;">AEC Quiz Club</p>
+        <p>Assam Engineering College</p>
+        <p>Jalukbari,Ghy</p>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="../Html/index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="../Html/about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="../Html/CoreTeam.html" class="nav-link">CoreTeam</a>
+      </li>
+      <li class="nav-item">
+        <a href="../Html/gallery.html" class="nav-link">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a href="../Html/contact.html" class="nav-link">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a href="../Html/Joinus.html" class="nav-link"><button>JoinUs</button></a>
+      </li>
 
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+  <div class="int">
+<h3 id="h3">Our Photo Gallery</h3>
+</div>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Intra-college</span>
+        <span class="item" data-name="shoe">State-level</span>
+        <span class="item" data-name="watch">National-level</span>
+        <span class="item" data-name="camera">Former-president</span>
+        
+      </div>
     </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="int (1i).jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="int (2).jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="int (2i).jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="int (3).jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="int (1).jpg" alt=""></span></div>
 
-  
-    <hr>
-    <div class="histry">
-        <h3>Gallery</h3>
+      <div class="image" data-name="shoe"><span><img src="sl1.jpeg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="sl2.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="sl3.jpeg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="sl4.jpeg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="sl52n.jpeg" alt=""></span></div>
+     
+      <div class="image" data-name="watch"><span><img src="nl (1).jpeg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="nl (1i).jpg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="nl (2).jpeg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="nl (3).jpeg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="nl (4).jpeg" alt=""></span></div>
     </div>
-    <hr>
-    
-    <div class="core">
-        
-<div class="main">
-    <h1 id="h1">Intra-college</h1>
-    
-<div class="div1">
-
-    <div class="card1">
-        
-        <p id="p1">Interaction with UPSC Topper, Kishor Sutradhar</p>
-
-
-
-       
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image-category: <p></p></span>
+      <span class="icon fas fa-times"></span>
     </div>
-</div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
 
-<div class="div2">
-
-    <div class="card2">
-        <p id="p1">College Week Quiz 2020</p>
-
-
-
-       
-    </div>
-</div>
-<div class="div3">
-
-    <div class="card3">
-        <p id="p1">Fresher's Quiz 2020</p>
-
-
-
-       
-    </div>
-</div>
-<div class="div3">
-
-    <div class="card3i">
-        <p id="p1">College Week Quiz 2017</p>
-
-
-
-       
-    </div>
-</div>
-<div class="div3">
-
-    <div class="card4i">
-        <p id="p1">Intra-AEC Technology Quiz 2020</p>
-
-
-
-       
-    </div>
-</div>
-
-</div>
-
-
-
-<div class="main">
-    <h1 id="h1">State-level</h1>
-    <div class="div1">
+  <script >//selecting all required elements
+    const filterItem = document.querySelector(".items");
+    const filterImg = document.querySelectorAll(".gallery .image");
     
-        <div class="card4">
-            <p id="p1">ISTE Assam Chapter Quiz 2019'</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div2">
-    
-        <div class="card5">
-            <p id="p1">Election Quiz 2019</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card6">
-            <p id="p1">Prof. DIlip Kumar Baruah Quiz 2020</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card7">
-            <p id="p1">Prof. Dilip Kumar Baruah Quiz 2018</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card8">
-            <p id="p1">Xclepia, FAAMCH 2020</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    </div>
-    
-<div class="main">
-    <h1 id="h1">National-level</h1>
-    <div class="div1">
-    
-        <div class="card9">
-            <p id="p1">Tata Crucible 2020</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div2">
-    
-        <div class="card10">
-            <p id="p1">Greymatters 2019</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card11">
-            <p id="p1">Flood relief camp as part of Rahaat Open Quiz 2020</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card9i">
-            <p id="p1">Tata Crucible 2017</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    <div class="div3">
-    
-        <div class="card10i">
-            <p id="p1">Greymatters 2020</p>
-    
-    
-    
-           
-        </div>
-    </div>
-    </div>
-</div>
-
-
-    
-
-    <footer>
-        <div class="fot">
-            <div class="imago">
-                <img src="aec.png" alt="" srcset="" width="100px" height="100px">
-
-            </div>
-            <div class="copy">
-                <p style="font-size: 17px;">Copyright © 2021 quizzclub.com. All rights reserved</p>
-
-                <p style="margin-top: 15px;"> This site is not a part of the Facebook website or Facebook Inc.
-                    Additionally, this site is NOT endorsed by Facebook in any way.</p>
-                <p>FACEBOOK is a trademark of FACEBOOK, Inc.</p>
-
-                <p style="margin-top: 15px;"> Disclaimer: All content is provided for educational purposes only</p>
-                <p style="margin-top: 60px;">Design and Developed by Rahul Ray </p>
-            </div>
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-    </footer>
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-menu");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
+    window.onload = ()=>{ //after window loaded
+      filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
+        if(selectedItem.target.classList.contains("item")){ //if user selected item has .item class
+          filterItem.querySelector(".active").classList.remove("active"); //remove the active class which is in first item
+          selectedItem.target.classList.add("active"); //add that active class on user selected item
+          let filterName = selectedItem.target.getAttribute("data-name"); //getting data-name value of user selected item and store in a filtername variable
+          filterImg.forEach((image) => {
+            let filterImges = image.getAttribute("data-name"); //getting image data-name value
+            //if user selected item data-name value is equal to images data-name value
+            //or user selected item data-name value is equal to "all"
+            if((filterImges == filterName) || (filterName == "all")){
+              image.classList.remove("hide"); //first remove the hide class from the image
+              image.classList.add("show"); //add show class in image
+            }else{
+              image.classList.add("hide"); //add hide class in image
+              image.classList.remove("show"); //remove show class from the image
+            }
+          });
         }
-        hamburger.addEventListener("click", myFunction1);
-        function myFunction1() {
-            var element = document.getElementById("myDIV");
-            element.classList.toggle("mystyle");
-        }
+      }
+      for (let i = 0; i < filterImg.length; i++) {
+        filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
+      }
+    }
+    
+    //fullscreen image preview function
+    //selecting all required elements
+    const previewBox = document.querySelector(".preview-box"),
+    categoryName = previewBox.querySelector(".title p"),
+    previewImg = previewBox.querySelector("img"),
+    closeIcon = previewBox.querySelector(".icon"),
+    shadow = document.querySelector(".shadow");
+    
+    function preview(element){
+      //once user click on any image then remove the scroll bar of the body, so user cant scroll up or down
+      document.querySelector("body").style.overflow = "hidden";
+      let selectedPrevImg = element.querySelector("img").src; //getting user clicked image source link and stored in a variable
+      let selectedImgCategory = element.getAttribute("data-name"); //getting user clicked image data-name value
+      previewImg.src = selectedPrevImg; //passing the user clicked image source in preview image source
+      categoryName.textContent = selectedImgCategory; //passing user clicked data-name value in category name
+      previewBox.classList.add("show"); //show the preview image box
+      shadow.classList.add("show"); //show the light grey background
+      closeIcon.onclick = ()=>{ //if user click on close icon of preview box
+        previewBox.classList.remove("show"); //hide the preview box
+        shadow.classList.remove("show"); //hide the light grey background
+        document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
+      }
+    }</script>
 
-    </script>
-    <script>
-        const navLink = document.querySelectorAll(".nav-link");
+    
 
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
+  <footer>
+    <div class="fot">
+      <div class="imago">
+        <img src="../Logo/aec.png" alt="" srcset="" width="100px" height="100px">
 
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-    </script>
+      </div>
+      <div class="copy">
+        <p style="font-size: 17px;">Copyright © 2021 quizzclub.com. All rights reserved</p>
+
+        <p style="margin-top: 15px;"> This site is not a part of the Facebook website or Facebook Inc.
+          Additionally, this site is NOT endorsed by Facebook in any way.</p>
+        <p>FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+
+        <p style="margin-top: 15px;"> Disclaimer: All content is provided for educational purposes only</p>
+        <p style="margin-top: 60px;">Design and Developed by Rahul Ray </p>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </footer>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+    hamburger.addEventListener("click", myFunction1);
+    function myFunction1() {
+      var element = document.getElementById("myDIV");
+      element.classList.toggle("mystyle");
+    }
+
+  </script>
+  <script>
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  </script>
 
 
 </body>
-
 </html>
